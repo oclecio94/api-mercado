@@ -11,6 +11,6 @@ app.use(cors());
 app.use(express.json());
 routes(app);
 
-app.listen(3003, () => {
-  console.log("Servidor rodando na porta 3003!");
+app.listen(3033, () => {
+  console.log("Servidor rodando na porta 3033!");
 });
